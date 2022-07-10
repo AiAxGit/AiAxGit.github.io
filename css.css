@@ -1,5 +1,5 @@
 /*limpiar cascada*/
-html, body{font-family:cursive, Comic Sans MS, Courier, Cambria, Helvetica; width:100%; height:100%;}
+html, body{font-family: Comic Sans MS, Courier, Cambria, Helvetica; width:100%; height:100%;}
 *{margin:0; padding:0; border:0;}
 @media(min-width:1024px){html{width:100%; display:grid; place-items:center;} body{width:1024px;}}
 /*Libreria (uso por class)       */
