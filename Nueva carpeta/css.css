@@ -1,0 +1,146 @@
+/*limpiar cascada*/
+html, body{font-family:Comic Sans MS, Courier, Cambria, Helvetica; width:100%; height:100%;}
+*{margin:0; padding:0; border:0;}
+@media(min-width:1024px){html{width:100%; display:grid; place-items:center;} body{width:1024px;}}
+li{list-style:none;}
+/*Libreria (uso por class)*/
+.verdeoscuro{background-color:rgb(9, 32, 16);}
+.verde{background-color:rgb(19, 138, 39);}
+.verdeclaro{background-color:rgb(206, 252, 208);}
+.rosadocuro{background-color:rgb(126, 21, 94);}
+.rosado{background-color:rgb(236, 68, 186);}
+.rosadoclaro{background-color:rgb(253, 190, 225);}
+.blanco{background-color:#fff;}
+.black{background-color:#000;}
+
+.ftBlanco{color:#fff;}
+.ftBlack{color:#000;}
+.ftverdeoscuro{color:rgb(9, 32, 16);}
+.ftverde{color:rgb(19, 138, 39);}
+.ftverdeclaro{color:rgb(206, 252, 208);}
+.ftrosadoscuro{color:rgb(126, 21, 94);}
+.ftrosado{color:rgb(236, 68, 186);}
+.ftrosadoclaro{color:rgb(253, 190, 225);}
+
+.cleara{text-decoration:none;}
+.centerTxt{text-align:center;}
+.padding25bottom{padding-bottom:25px;}
+.padding25top{padding-top:25px;}
+.padding25left{padding-left:25px;}
+.margin5top{margin-top:5px;}
+.margin25top{margin-top:25px;}
+
+
+.padding10{padding:10%;}
+.padding5{padding:5%;}
+.padding3{padding:3%;}
+.margin2{margin:2%;}
+.margin5{margin:5%;}
+.width{width:100%;}
+.width80{width:80%;}
+.width60{width:60%;}
+.width40{width:40%;}
+.width10{width:10%;}
+.padding60top{padding-top:60px;}
+.padding100bottom{padding-bottom:100px;}
+.border{border-radius:25px;}
+.border5{border-radius:5px;}
+
+.hoverosa:hover{background-color:rgb(253, 190, 225);
+   color:rgb(9, 32, 16);
+}
+.hoverde:hover{background-color:rgb(206, 252, 208); 
+   color:rgb(126, 21, 94);
+}
+.rotar{transform: rotate(90deg)}
+.paddingcenter{
+   padding-left:10%;
+   padding-right:10%;
+   padding-top:60px;
+   padding-bottom:50px;
+}
+.bordebotomver{
+   border:1px solid rgb(19, 138, 39);
+}
+.bordebotomros{
+   border:1px solid rgb(236, 68, 186);;
+}
+.grid{display:grid; place-items:center;}
+
+
+/*Estructura*/
+/*barra*/
+.imgBar{height:25px;}
+.barMenuItemB{padding:8px; border-radius:5px;}
+#bar{position:absolute; height:50px; width:100%; display:grid; place-items:center;}
+#barCenter{width:95%; height:75%;}
+#logo, #barMenu, #btMenu{display: inline;}
+#btMenu{float:right;}
+#barMenu{padding:10px; display:none; width:69%; float: right;}
+#barMenuItem{display:inline; float:right;}
+@media(min-width:1024px){#bar{width:1024px;} #btMenu{display:none;} #barMenu{display:block;}}
+@media(min-width:600px){#bar{height:50px;} .imgBar{height:35px;}}
+/*menu*/
+/*funcion menu*/
+#funcionMenu{display:none;}
+#nav{display:none;  position:absolute; z-index:1;}
+.inputfuncion:checked + #nav{display:block;}
+/*ventana*/
+#nav{width:100%; height:2000px; background-color:rgba(253, 190, 225, 0.466);}
+#ventana1{display:inline-block; width:50%;}
+#ventana2{float:right; width:50%; display:grid; place-items:center;  background-color:rgba(9, 32, 16, 0.904)}
+#ventanaUl{width:90%; height:2000px;;}
+#ventanaClosed{width:100%; height:2000px; color:rgba(0, 0, 0, 0);}
+#liitem{padding-bottom:25px;}
+#btnClosed{padding-top:6px; float:right;}
+
+
+
+
+
+/*art1 and Hero*/
+#art1img2{transform: rotate(6deg)}
+#art1img{width:70%; transform: rotate(-6deg)}
+@media(min-width:700px){
+   #art1img{float:right; width:40%;}
+   #art1txt{display:inline-block; width:38%;}
+}
+@media(min-width:900px){
+   #art1img{width:30%;}
+   #art1txt{width:45%;}
+}
+/*art2*//*introduccion*/
+#art2title{text-align:center;}
+#art2vid2{transform: rotate(8deg)}
+#art2vid{transform: rotate(-8deg)}
+@media(min-width:700px){
+   #art2vid{width:80%; }
+}
+@media(min-width:900px){
+   #art2vid{width:70%;}
+}
+/*art3*//*Interesante*/
+@media(min-width:700px){
+   #art3preg2txt{width:80%; display:inline-block;}
+   #art3preg2botom{ float:right; width:10%;} 
+}
+
+
+
+
+
+/*art4*//**/
+/*art5*//**/
+/*art6*//**/
+/*art7*//**/
+/*art8*//**/
+/*art9*//**/
+/*art10*//**/
+/*art*//**/
+
+
+
+
+/*footer*//*terminos y autor*/
+#footer{width:100%; display:grid; place-items:center;}
+#footerCenter{width:80%;}
