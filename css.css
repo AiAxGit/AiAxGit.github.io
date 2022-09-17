@@ -1,0 +1,141 @@
+/*limpiar cascada*/
+html, body{font-family:Comic Sans MS, Courier, Cambria, Helvetica; width:100%; height:100%;}
+*{margin:0; padding:0; border:0;}
+@media(min-width:1024px){html{width:100%; display:grid; place-items:center;} body{width:1024px;}}
+li{list-style:none;}
+/*Libreria (uso por class)*/
+.naranja{background-color:#f95911;}
+.gris{background-color:#e5e5e5;}
+.blanco{background-color:#fff;}
+.black{background-color:#000;}
+.ftBlanco{color:#fff;}
+.ftGris{color:#e5e5e5;}
+.ftBlack{color:#000;}
+.ftNaranja{color:#f95911;}
+.border{border-radius:25px;}
+.border50{border-radius:50px;}
+.cleara{text-decoration:none;}
+.centerTxt{text-align:center;}
+.padding100bottom{padding-bottom:100px;}
+.padding200bottom{padding-bottom:200px;}
+.padding25bottom{padding-bottom:25px;}
+.padding25top{padding-top:25px;}
+.padding25left{padding-left:25px;}
+.margin25top{margin-top:25px;}
+.padding10{padding:10%;}
+.padding5{padding:5%;}
+.padding3{padding:3%;}
+.margin2{margin:2%;}
+.margin5{margin:5%;}
+.parche{width:100%; height:10px; position: relative; top:-5px;}
+.width{width:100%;}
+.width80{width:80%;}
+.width60{width:60%;}
+.width40{width:40%;}
+
+/*Estructura*/
+/*barra*/
+.imgBar{height:25px;}
+#bar{position:absolute; height:35px; width:100%; display:grid; place-items:center;}
+#barCenter{width:95%; height:75%;}
+#logo, #barMenu, #btMenu{display: inline;}
+#btMenu{float:right;}
+#barMenu{padding:10px; display:none; width:69%; float: right;}
+#barMenuItem{display:inline; padding-left:25px; float:right;}
+@media(min-width:1024px){#bar{width:1024px;} #btMenu{display:none;} #barMenu{display:block;}}
+@media(min-width:600px){#bar{height:50px;} .imgBar{height:35px;}}
+/*menu*/
+/*funcion menu*/
+#funcionMenu{display:none;}
+#nav{display:none;  position:absolute; z-index:1;}
+.inputfuncion:checked + #nav{display:block;}
+/*ventana*/
+#nav{width:100%; height:2000px; background-color:rgba(0, 0, 0, 0.466);}
+#ventana1{display:inline-block; width:50%;}
+#ventana2{float:right; width:50%; display:grid; place-items:center;  background-color:rgba(0, 0, 0, 0.904)}
+#ventanaUl{width:90%; height:2000px;;}
+#ventanaClosed{width:100%; height:2000px; color:rgba(0, 0, 0, 0);}
+#liitem{padding-bottom:25px;}
+#btnClosed{padding-top:6px; float:right;}
+/*art1 and Hero*/
+#imgHero{height:300px;}
+@media(min-width:1024px){#imgHero{height:400px;}}
+@media(min-height:1000px){#imgHero{height:400px;}}
+#heroTxt{width:300px; height:200px; display:grid; place-items:center;}
+#heroTxtCenter{width:90%; height:100%;}
+#heroTxtNaranja{width:80%; height:200px; top:-40%; position:relative;}
+#heroTxtBlanco{width:80%; padding:10%; left:15%; top:15%; position:relative;}
+@media(min-width:600px){#heroTxt{width:400px;}}
+@media(min-width:1024px){#heroTxt{width:500px; height:200px;} #heroTxtNaranja{height:250px;}}
+/*art2*//*disenno hostin marketing support*/
+#art2{width:100%;}
+#art2Center{width:100%; display:grid; place-items:center; position:relative;}
+#art2Centrado{width:90%;}
+#art2Fondo{width:100%; height:150px; position:absolute}
+@media(min-width:700px){#art2orden{width:39%; display:inline-block;}}
+@media(min-width:900px){#art2orden{width:14%;}}
+@media(min-width:1024px){#art2Fondo{width:1024px;}}
+/*art3*//*desarrollo digital and resumen*/
+#circ3{width:100px; height:100px; float:right;}
+#art3Cent{display:grid; place-items:center;}
+#art3center{width:90%;}
+/*art4*//*imagen y llamanos*/
+#art{width:100%;}
+#art4img{position:relative;}
+#art4cuadrado{height:250px; position:absolute;}
+#art4img4{position:absolute; top:-25%; right:0;}
+#imgart4{height:400px;}
+@media(min-width:700px){#art4img4{top:-35%;}#art4Cent{width:70%;} #art4cuadrado{height:300px; width:100%;}}
+@media(min-width:1024px){#art4img4{top:-50%;}}
+/*art5*//*frase y resumen de lo que hacemos*/
+#art5{display:grid; place-items:center;}
+#art5center{width:90%;}
+#circ5{width:100px; height:100px;}
+#art5part1{display:inline-block;}
+#art5part2{float:right;}
+@media(min-width:700px){#art5part1{width:39%;}#art5part2{width:50%;}}
+/*art6*//*paquetes*/
+#art6{display:grid; place-items:center;}
+#art6center{width:90%;}
+#art6part1{height:100%;}
+#btnpaquetes{display:grid; place-items:center;}
+@media(min-width:700px){#art6part21{width:45%; display:inline-block;} #art6part22{width:30%; display:inline-block;} #art6part23{width:30%; display:inline-block;} #art6part24{width:40%; display:inline-block;} #art6img1{height:200px;} #art6img2{height:200px}}
+@media(min-width:1000px){#art6part1{width:35%; display:inline-block; padding-bottom:100px; font-size:130%;} #art6part11{padding-top:50px;  padding-bottom:50px;} #art6part2{width:60%; float:right;} #art6img1, #art6img2{height:}}
+/*art7*//*star now, nosotros y imagen*/
+#art7{display:grid; place-items:center;}
+#art7center{width:90%;}
+@media(min-width:700px){#abaoutUs{width:30%; display:inline-block;} #art7img{width:45%; display:inline-block;}}
+@media(min-width:700px){#starNow{width:25%; display:inline-block;} #abaoutUs{width:20%;} #art7img{width:35%;}}
+/*art8*//*foto and introduciendo mi conocimiento con un boton y cuadrado naranja concretar encuentro*/
+#art8{width:100%;position: relative; display:grid; place-items:center;}
+#art8center{width:90%;}
+#art8fondo{height:150px; width:100%; top:-5px; position:absolute;}
+#art8img{width:280px; position:absolute;}
+#art8conocimiento{width:80%; float:right; position:relative; margin-top:220px;}
+#art8evento{width:90%;}
+@media(min-width:700px){#art8img{width:400px;} #art8conocimiento{width:60%; margin-top:300px;}}
+@media(min-width:1000px){#art8img{width:500px;} #art8conocimiento{width:60%; margin-top:400px; margin-right:10%}}
+#circ8{width:100px; height:100px; float:right;}
+/*art9*//*go to introduccion*/
+#art9{display:grid; place-items:center; width:100%; text-align:center;}
+#art9center{width:90%;}
+#art9fondo{position: relative; width:100%; height:10px;  top:-5px;}
+/*art10*//*esperiencia*/
+#art10{ position:relative; width:100%;}
+#art10conten{display:grid; place-items:center; width:100%;}
+#art10center{width:90%; text-align:center; position:relative;}
+#art10fondo{position:absolute; width:100%; height:400px;  top:-5px;}
+#art10trabajos{width:100%}
+.img10trabajo{}
+@media(min-width:700px){.art10trab0{width:28%; display:inline-block;} .img10trabajo{}}
+@media(min-width:1000px){#art10fondo{width:1024px; top:-5px;} /*.art10trab0{width:16%; display:inline-block;}  .img10trabajo{}*/}
+/*#art10trab3, #art10trab4,*/ #art10trab5, #art10trab6{display:none;}
+/*art11*//*informacion contacto y redes*/
+#art11{display:grid; place-items:center; width:100%; position:relative;}
+#art11center{width:90%; text-align:center; position:relative;}
+#art11fondo{position:absolute; width:100%; height:200px; top:-5px;}
+@media(min-width:700px){#art11center{width:60%;}}
+@media(min-width:1000px){#art11fondo{width:1024px;}}
+/*footer*//*terminos y autor*/
+#footer{width:100%; height:100px; display:grid; place-items:center;}
+#footerCenter{width:80%;}
